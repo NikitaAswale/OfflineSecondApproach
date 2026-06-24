@@ -141,7 +141,7 @@ fun UserUI(user: UserEntity) {
             .fillMaxWidth()
             .padding(20.dp),
         elevation = CardDefaults.cardElevation(4.dp),
-        shape = RoundedCornerShape(4.dp)
+        shape = RoundedCornerShape(8.dp)
     ) {
 
         Column(
