@@ -147,7 +147,7 @@ fun UserUI(user: UserEntity) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(12.dp)
+                .padding(16.dp)
         ) {
 
             Text(text = "User ID: ${user.userId}")
